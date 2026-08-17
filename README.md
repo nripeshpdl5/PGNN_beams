@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1337349688.svg)](https://doi.org/10.5281/zenodo.21982860)
+
 Codes and scripts that have been used in the research are available here in this public repository.
 
 1. Provenance
@@ -7,7 +7,7 @@ Both datasets are derived from the thermo-mechanical finite-element simulation c
 
 P. P. Bhatt, V. K. R. Kodur, M. Z. Naser, "Dataset on fire resistance analysis of FRP-strengthened concrete beams," Data in Brief, 52 (2024) 110031. https://doi.org/10.1016/j.dib.2024.110031
 
-If you use this code, please cite both the original Bhatt, Kodur & Naser dataset above and this paper. See CITATION.cff for the preferred citation format for the code/paper; the original dataset should be cited separately per its own terms.
+If you use this code, please cite both the original Bhatt, Kodur & Naser dataset above and this paper. You can cite this code through this [![DOI](https://zenodo.org/badge/1337349688.svg)](https://doi.org/10.5281/zenodo.21982860). The original dataset should be cited separately per its own terms.
 
 This repository does not redistribute the raw source workbook or any processed/split version of the data. It provides only the scripts that clean, harmonize, and split the data from the original source, so that the full provenance chain from raw source to reported result is traceable and reproducible by anyone who obtains the source data independently from the DOI above.
 
