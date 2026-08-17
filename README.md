@@ -40,7 +40,7 @@ phase4.py — Physics Violation Rate (PVR) and monotonicity response-curve analy
 PVR: for each of the six sign-constrained features, the % of evaluation beams where perturbing that feature moves predicted FR in the physically impossible direction (tins, hi, Tg up ⇒ FR must not decrease; kins, LR, Ld up ⇒ FR must not increase). Measured by finite perturbation (Δ = 0.25σ of the feature), not autograd, so the identical procedure applies to tree ensembles and neural nets — a gradient-based PVR would be unfair to XGBoost (piecewise-constant, zero gradient almost everywhere) and incomparable across model classes. A tolerance band (|ΔFR| ≤ 0.5 min) keeps numerical noise from counting as a violation.
 Monotonicity response curves: predicted FR for a median beam as one feature sweeps its range (tins; and LR extended to 150%, past the dataset's ~73.5% maximum, to expose extrapolation behaviour and the PGNN's collocation-trained collapse toward FR ≈ 0 at LR ≥ 100%).
 
-phase5.py — blind experimental validation: evaluates the trained models against the 50 usable real furnace tests (sheet 01_FireTestData). These records were never used in training, scaling, model selection, or hyperparameter tuning at any phase.
+phase5.py — blind experimental validation: evaluates the trained models against the 50 usable real furnace tests. These records were never used in training, scaling, model selection, or hyperparameter tuning at any phase.
 3. License and usage
 Code in this repository: MIT License.
 Documentation (this file and related .md files): CC BY 4.0.
