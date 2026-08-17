@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1337349688.svg)](https://doi.org/10.5281/zenodo.21982860)
 Codes and scripts that have been used in the research are available here in this public repository.
 
 1. Provenance
